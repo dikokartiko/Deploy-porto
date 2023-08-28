@@ -73,7 +73,7 @@ const AppHeader = () => {
             <button
               onClick={toggleMenu}
               type="button"
-              className="focus:outline-none"
+              className="focus:outline-none "
               aria-label="Hamburger Menu">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -151,7 +151,7 @@ const AppHeader = () => {
           <div className="hidden md:flex">
             <span
               onClick={showHireMeModal}
-              className="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
+              className="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300 shadow-xl rounded-lg"
               aria-label="Hire Me Button">
               <Button title="Hire Me" />
             </span>
@@ -161,7 +161,7 @@ const AppHeader = () => {
           <div
             onClick={() => setTheme(activeTheme)}
             aria-label="Theme Switcher"
-            className="ml-8 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer">
+            className="ml-8 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer shadow-xl rounded-lg">
             {activeTheme === "dark" ? (
               <FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
             ) : (
