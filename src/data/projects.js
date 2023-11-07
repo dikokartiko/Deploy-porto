@@ -6,6 +6,7 @@ import UIImage1 from "../images/ui-project-1.jpg";
 import tupomock from "../images/projects/tupo-mock.jpg";
 import guestNumber from "../images/projects/guestmynumber.jpg";
 import tindog from "../images/projects/tindogmock.jpg";
+import akui from "../images/projects/akui2.jpg";
 export const projectsData = [
   {
     id: 1,
@@ -57,5 +58,17 @@ export const projectsData = [
     tech: { cssFrameWork: "bootstrap" },
     img: tindog,
     url: "https://dikokartiko.github.io/Tindog/",
+  },
+  {
+    id: 6,
+    title: "Akui MultiWareHouse E-Commerce",
+    category: "Web Application",
+    url: "https://github.com/purwadhikafullstack/JCWD011004",
+    tech: {
+      frameWork: "React-JS",
+      cssFrameWork: "Tailwind-CSS",
+      backend: "express",
+    },
+    img: akui,
   },
 ];
