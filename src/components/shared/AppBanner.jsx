@@ -2,7 +2,7 @@ import useThemeSwitcher from "../../hooks/useThemeSwitcher";
 import { FiArrowDownCircle } from "react-icons/fi";
 import developerLight from "../../images/diko.png";
 import developerDark from "../../images/diko.png";
-import pdf from "../../images/projects/dicco_2023_latest.pdf";
+import pdf from "../../images/projects/dicco_2023_latestnov.pdf";
 import { motion } from "framer-motion";
 
 const AppBanner = () => {
